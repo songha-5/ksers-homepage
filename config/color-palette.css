@@ -1,0 +1,22 @@
+/*
+ * Placeholder palette. Replace the hex codes here when the brand colors are fixed.
+ * Token names stay the same so utilities such as bg-primary keep working.
+ */
+:root {
+  --palette-primary: #09428F;
+  --palette-primary-foreground: #ffffff;
+  --palette-secondary: #0f766e;
+  --palette-secondary-foreground: #ffffff;
+  --palette-accent: #ffeb3b;
+  --palette-accent-foreground: #ffffff;
+  --palette-background: #ffffff;
+  --palette-foreground: #171717;
+  --palette-muted: #f4f4f5;
+  --palette-muted-foreground: #52525b;
+  --palette-border: #e4e4e7;
+  --palette-success: #15803d;
+  --palette-warning: #a16207;
+  --palette-danger: #b91c1c;
+  --palette-info: #0369a1;
+  --palette-dday: #00AEEF;
+}

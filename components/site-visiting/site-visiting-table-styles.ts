@@ -1,0 +1,8 @@
+import {
+  SIMPLE_TABLE_CELL_LEFT_CLASS,
+  SIMPLE_TABLE_HEADER_CLASS,
+} from "@/components/simple-table/simple-table-styles";
+
+export const SITE_VISITING_LABEL_CLASS_NAME = `${SIMPLE_TABLE_HEADER_CLASS} w-[22%]`;
+
+export const SITE_VISITING_VALUE_CLASS_NAME = SIMPLE_TABLE_CELL_LEFT_CLASS;

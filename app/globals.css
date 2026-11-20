@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "../config/color-palette.css";
+
+:root {
+  --font-family-base:
+    var(--font-pretendard), var(--font-roboto), Arial, sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--palette-primary);
+  --color-primary-foreground: var(--palette-primary-foreground);
+  --color-secondary: var(--palette-secondary);
+  --color-secondary-foreground: var(--palette-secondary-foreground);
+  --color-accent: var(--palette-accent);
+  --color-accent-foreground: var(--palette-accent-foreground);
+  --color-background: var(--palette-background);
+  --color-foreground: var(--palette-foreground);
+  --color-muted: var(--palette-muted);
+  --color-muted-foreground: var(--palette-muted-foreground);
+  --color-border: var(--palette-border);
+  --color-success: var(--palette-success);
+  --color-warning: var(--palette-warning);
+  --color-danger: var(--palette-danger);
+  --color-info: var(--palette-info);
+  --font-sans: var(--font-family-base);
+}
+
+body {
+  background: var(--palette-background);
+  color: var(--palette-foreground);
+  font-family: var(--font-family-base);
+}
+
+/* 아래에 남아 있는 이전 배너 위로 다음 배너만 페이드인한다. */
+@keyframes banner-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
